@@ -17,7 +17,7 @@
   </ul>
 
 <ul>Настройка:
-<ul><li>resources/application.yml - В данном файле необходимо настроить ключи из внешних api, по стандарту стоят мои ключи, но при желании можно перестроить:</li>
+<li><ul>resources/application.yml - В данном файле необходимо настроить ключи из внешних api, по стандарту стоят мои ключи, но при желании можно перестроить:</li>
   <li>feign.exchanger.key - https://developers.giphy.com/docs/api#quick-start-guide</li>
   <li>feign.giphy.key - https://docs.openexchangerates.org/</li>
   <li>feign.exchanger.currency - валюта по которой сравниваем с USD в формате 3 буквы</li></ul>
