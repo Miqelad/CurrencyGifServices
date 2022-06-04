@@ -1,0 +1,9 @@
+feign:
+  exchanger:
+    api: https://openexchangerates.org/api
+    key: 7f66f113293549769644bbc7f85f1d2c
+    currency: rub
+  giphy:
+    api: https://api.giphy.com/v1/gifs
+    key: YhvAl71IQ7ob3nmw0OpcJO6yD99GlABr
+
