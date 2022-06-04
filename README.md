@@ -10,7 +10,7 @@
 </ul>
 
 <ul>Вводная часть:
-  <ul><li>Сервис сравнивает отношение к валюте USD за сегодня и за вчера.</li>
+  <li><ul>Сервис сравнивает отношение к валюте USD за сегодня и за вчера.</li>
   <li> если курс по отношению к USD за сегодня стал выше вчерашнего, то отдаем рандомную отсюда https://giphy.com/search/rich</li>
   <li> если ниже - отсюда https://giphy.com/search/broke
   <li> если равны - то https://media4.giphy.com/media/PjaTjG8ct5cNOtjjZg/giphy.gif?cid=ecf05e47xjgdvce0o8zn1h25y58guxkwx8cvnhsjvzu9smzp&rid=giphy.gif&ct=g</li></ul>
