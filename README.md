@@ -10,17 +10,17 @@
 </ul>
 
 <ul>Вводная часть:
-  <li>Сервис сравнивает отношение к валюте USD за сегодня и за вчера.</li>
+  <ul><li>Сервис сравнивает отношение к валюте USD за сегодня и за вчера.</li>
   <li> если курс по отношению к USD за сегодня стал выше вчерашнего, то отдаем рандомную отсюда https://giphy.com/search/rich</li>
   <li> если ниже - отсюда https://giphy.com/search/broke
-  <li> если равны - то https://media4.giphy.com/media/PjaTjG8ct5cNOtjjZg/giphy.gif?cid=ecf05e47xjgdvce0o8zn1h25y58guxkwx8cvnhsjvzu9smzp&rid=giphy.gif&ct=g</li>
+  <li> если равны - то https://media4.giphy.com/media/PjaTjG8ct5cNOtjjZg/giphy.gif?cid=ecf05e47xjgdvce0o8zn1h25y58guxkwx8cvnhsjvzu9smzp&rid=giphy.gif&ct=g</li></ul>
   </ul>
 
 <ul>Настройка:
-<li>resources/application.yml - В данном файле необходимо настроить ключи из внешних api, по стандарту стоят мои ключи, но при желании можно перестроить:</li>
+<ul><li>resources/application.yml - В данном файле необходимо настроить ключи из внешних api, по стандарту стоят мои ключи, но при желании можно перестроить:</li>
   <li>feign.exchanger.key - https://developers.giphy.com/docs/api#quick-start-guide</li>
   <li>feign.giphy.key - https://docs.openexchangerates.org/</li>
-  <li>feign.exchanger.currency - валюта по которой сравниваем с USD в формате 3 буквы</li>
+  <li>feign.exchanger.currency - валюта по которой сравниваем с USD в формате 3 буквы</li></ul>
   </ul>
 <ul>Основной endpoint:
   <li>com/paata/mikeladze/currency/controller/ControllerCurrency.java</li>
